@@ -1,6 +1,6 @@
 package src.main.java.classes;
 
-public class Money {
+public abstract class Money {
     private int count = 1;
     private float value;
 
@@ -29,4 +29,7 @@ public class Money {
     public void setValue(float value) {
         this.value = value;
     }
+
+    @Override
+    public abstract String toString();
 }
