@@ -1,12 +1,12 @@
 package src.main.java.classes;
 
 public class Quarter extends Money {
-    Quarter() {
+    public Quarter() {
         super();
         this.setValue(0.25f);
     }
 
-    Quarter(int count) {
+    public Quarter(int count) {
         super(count);
         this.setValue(0.25f);
     }

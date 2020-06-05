@@ -1,12 +1,12 @@
 package src.main.java.classes;
 
 public class Dollar extends Money {
-    Dollar() {
+    public Dollar() {
         super();
         this.setValue(1.00f);
     }
 
-    Dollar(int count) {
+    public Dollar(int count) {
         super(count);
         this.setValue(1.00f);
     }

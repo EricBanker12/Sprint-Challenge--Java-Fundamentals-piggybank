@@ -1,12 +1,12 @@
 package src.main.java.classes;
 
 public class Nickel extends Money {
-    Nickel() {
+    public Nickel() {
         super();
         this.setValue(0.05f);
     }
 
-    Nickel(int count) {
+    public Nickel(int count) {
         super(count);
         this.setValue(0.05f);
     }

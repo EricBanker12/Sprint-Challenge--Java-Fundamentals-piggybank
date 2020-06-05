@@ -1,12 +1,12 @@
 package src.main.java.classes;
 
 public class Dime extends Money {
-    Dime() {
+    public Dime() {
         super();
         this.setValue(0.10f);
     }
 
-    Dime(int count) {
+    public Dime(int count) {
         super(count);
         this.setValue(0.10f);
     }

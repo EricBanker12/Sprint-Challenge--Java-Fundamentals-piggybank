@@ -4,9 +4,9 @@ public class Money {
     private int count = 1;
     private float value;
 
-    Money() {}
+    public Money() {}
 
-    Money(int count) {
+    public Money(int count) {
         setCount(count);
     }
 

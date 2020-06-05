@@ -1,12 +1,12 @@
 package src.main.java.classes;
 
 public class Penny extends Money {
-    Penny() {
+    public Penny() {
         super();
         this.setValue(0.01f);
     }
 
-    Penny(int count) {
+    public Penny(int count) {
         super(count);
         this.setValue(0.01f);
     }
