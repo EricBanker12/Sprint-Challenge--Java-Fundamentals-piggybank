@@ -25,9 +25,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Describe why Java is called an object oriented, strongly typed language.
+
+   Java is object oriented because it does not allow defining root level functions, only methods inside a class/object. Java is strongly typed as the type for variables, data structures, and method parameters must be predefined.
+
 2. Give examples of Java Collections explaining the use and differences between them.
+
+   ArrayList is a mutable array-like structure. HashMap is a mutable dictionary (collection of key - value pairs). HashSet is a mutable set (array-like with only unique values).
+
 3. What is recursion and how does it differ from regular looping?
+
+   Recursion is when a method calls itself within it's own implementation. This differs from looping as the function must have a returning base-case, and each new call pushes function data to the memory stack (and is less efficient than a loop).
+
 4. Explain the differences between Abstract Classes and Interfaces including scenarios of when to use them.
+
+   Both interfaces and abstract classes require child class to implement methods, but an interface requires implementing all methods while an abstract class can have fields and some method implementation completed.
 
 ## Instructions
 
